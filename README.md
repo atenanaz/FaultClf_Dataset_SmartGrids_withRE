@@ -17,3 +17,11 @@ b. HealthySignal_withRE: For Healthy data, we got raw healthy signals for 88 lin
 
 2.FeatureData: includes features from three domains: time, frequency (discrete Fourier transform DFT), and Discrete wavelet transform (DWT).
 For feature representation, we investigate the impact of several statistical aggregation functions computing the n-th moment of the probability distribution functions (PDFs) (n \ in [1,4]) inculde (mean, standard deviation, skewness, kurtosis) together with the energy and maximum level of the signals for three domains as an input of classifiers. In total, 48 features are extracted: 6 features from time-domain, 6 features from DFT, and 36 features from DWT (5 levels of decomposition + 1 level of approximation). In this regard, for DWT 6 features are multiplied by 6. In this folder there are two folders related to features for faulty and healthy signals.
+
+a. Features_faultySignal: For faulty data, there are three .csv files that each include 48 features and labels with 3872 samples for phases A, B, and C, respectively. Furthermore, there are two labels, “locLabel” and “faultLabel” and information about resistance and where the measurements are done in columns by headers “resistance” and “measloc”.
+
+b. Features_healthySignal: For healthy data, there are three .csv files that each include 48 features and labels with 352 samples for phases A, B, and C, respectively. Furthermore, there are information about line length and where the measurements are done in columns by headers “lineLength” and “measloc”.
+
+The diagram of folders is shown in the following:
+
+
