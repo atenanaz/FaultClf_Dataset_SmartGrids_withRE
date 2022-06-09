@@ -22,6 +22,8 @@ a. Features_faultySignal: For faulty data, there are three .csv files that each 
 
 b. Features_healthySignal: For healthy data, there are three .csv files that each include 48 features and labels with 352 samples for phases A, B, and C, respectively. Furthermore, there are information about line length and where the measurements are done in columns by headers “lineLength” and “measloc”.
 
-The diagram of folders is shown in the following:
+The structure of folders is shown in the following:
 
 ![DatasetRE](https://user-images.githubusercontent.com/38736959/172888266-dc432062-6212-4f5b-a319-39e7291e6a46.png)
+
+Dataset can be downloaded from this linke: https://drive.google.com/drive/folders/1RcHrfXrCEynwec7Jy6M42R7iuVGxXiRT?usp=sharing
