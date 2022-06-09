@@ -13,3 +13,7 @@ a. FaultySignal_withRE: For fault simulation, we divided the network into four z
 b. HealthySignal_withRE: For Healthy data, we got raw healthy signals for 88 line lengths by measuring from four locations and for three phases. This folder contains three .xlsx files that include phase A, B, and C voltage measurements. The whole simulation time was t = [0.0 - 0.022]. The number of samples created by simulation for both faulty and healthy signals with renewable energies is demonstrated in the figure below.
 
 ![Design of dataset](https://user-images.githubusercontent.com/38736959/172881783-64986151-3951-461b-b28a-4f8ce62dc346.png)
+
+
+2.FeatureData: includes features from three domains: time, frequency (discrete Fourier transform DFT), and Discrete wavelet transform (DWT).
+For feature representation, we investigate the impact of several statistical aggregation functions computing the n-th moment of the probability distribution functions (PDFs) (n \ in [1,4]) inculde (mean, standard deviation, skewness, kurtosis) together with the energy and maximum level of the signals for three domains as an input of classifiers. In total, 48 features are extracted: 6 features from time-domain, 6 features from DFT, and 36 features from DWT (5 levels of decomposition + 1 level of approximation). In this regard, for DWT 6 features are multiplied by 6. In this folder there are two folders related to features for faulty and healthy signals.
