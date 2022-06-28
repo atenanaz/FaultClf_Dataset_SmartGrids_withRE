@@ -27,4 +27,4 @@ The structure of folders is shown in the following:
 ![DatasetRE](https://user-images.githubusercontent.com/38736959/172888266-dc432062-6212-4f5b-a319-39e7291e6a46.png)
 
 Dataset can be downloaded from this linke: https://drive.google.com/drive/folders/1RcHrfXrCEynwec7Jy6M42R7iuVGxXiRT?usp=sharing
-The code is available at: https://github.com/atenanaz/FaultClf_Dataset_SmartGrids_withRE/edit/main/README.md
+The code is available at: https://github.com/atenanaz/FaultClf_Dataset_SmartGrids_withRE
