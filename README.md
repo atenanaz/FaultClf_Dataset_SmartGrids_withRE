@@ -24,7 +24,7 @@ b. Features_healthySignal: For healthy data, there are three .csv files that eac
 
 The structure of folders is shown in the following:
 
-![DatasetRE](https://user-images.githubusercontent.com/38736959/172888266-dc432062-6212-4f5b-a319-39e7291e6a46.png)
+![](https://user-images.githubusercontent.com/38736959/196047644-2e5f7edd-e919-4149-8e48-1e79826abf0b.jpeg)
 
 Dataset can be downloaded from this linke: https://drive.google.com/drive/folders/1RcHrfXrCEynwec7Jy6M42R7iuVGxXiRT?usp=sharing
 The code is available at: https://github.com/atenanaz/FaultClf_Dataset_SmartGrids_withRE
